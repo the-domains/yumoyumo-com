@@ -1,7 +1,7 @@
 name: yumoyumo.com
 favicon: null
 layout_spectrum: 0.7013836975675076
-typography_spectrum: 0.9178790196310729
+typography_spectrum: 0.34526
 cta:
   domain: null
   bucket: null
@@ -21,7 +21,7 @@ color:
     - '#000406'
     - '#71fc2e'
     - '#00c4e2'
-  brandStrength: 0.5188251533545554
+  brandStrength: 0.4375
   lightness: 0.4705176337156445
   saturation: 0.3435677206143737
   rhythmicContrast: 0.5
