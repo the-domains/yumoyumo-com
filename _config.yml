@@ -1,28 +1,40 @@
-name: yumoyumo.com
 favicon: null
-layout_spectrum: 0.5144
-typography_spectrum: 0.34526
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: yumoyumo.com
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
-  brandColors:
-    - '#fbfcfe'
-    - '#ff0e1c'
-    - '#000406'
-    - '#71fc2e'
-    - '#00c4e2'
+  saturation: 0.625
   brandStrength: 0.8125
   lightness: 0.4705176337156445
-  saturation: 0.625
+  brandColors:
+    - '#A39B90'
+    - '#38383B'
+    - '#FBBC41'
+    - '#BD7654'
+    - '#FFE97F'
   rhythmicContrast: 0.5
-purpose: []
+typography_spectrum: 0.34526
+layout_spectrum: 0.3799283
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
